@@ -1,0 +1,7 @@
+Top Players in Software Development Team:
+
+1. David - Composite Score: 90.34
+2. Bob - Composite Score: 87.67
+3. Eva - Composite Score: 86.69
+
+These scores were calculated using a weighted average of code quality, productivity, and peer reviews.

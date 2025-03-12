@@ -1,0 +1,7 @@
+ST Engineering Stock Price Information:
+
+- Bloomberg: [ST Engineering Stock Price on Bloomberg](https://www.bloomberg.com/quote/STE:SP)
+- MarketWatch: [ST Engineering Stock Price on MarketWatch](https://www.marketwatch.com/investing/stock/s63?countrycode=sg)
+- CNBC: [ST Engineering Stock Price on CNBC](https://www.cnbc.com/quotes/STEG-SG/)
+
+This document contains links to reliable sources where the current stock price of ST Engineering can be verified.
