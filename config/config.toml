@@ -1,0 +1,44 @@
+# Global LLM configuration
+[llm]
+model = "gpt-4o"
+base_url = "https://api.openai.com/v1"
+api_key = "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"
+max_tokens = 4096
+temperature = 0.0
+
+# [llm] #AZURE OPENAI:
+# api_type= 'azure'
+# model = "YOUR_MODEL_NAME" #"gpt-4o-mini"
+# base_url = "{YOUR_AZURE_ENDPOINT.rstrip('/')}/openai/deployments/{AZURE_DEPOLYMENT_ID}"
+# api_key = "AZURE API KEY"
+# max_tokens = 8096
+# temperature = 0.0
+# api_version="AZURE API VERSION" #"2024-08-01-preview"
+
+# Optional configuration for specific LLM models
+[llm.vision]
+model = "gpt-4o"
+base_url = "https://api.openai.com/v1"
+api_key = "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"
+
+# Optional configuration for specific browser configuration
+[browser]
+# Whether to run browser in headless mode (default: false)
+headless = false
+# Disable browser security features (default: true)
+disable_security = true
+# Extra arguments to pass to the browser
+extra_chromium_args = []
+# Path to a Chrome instance to use to connect to your normal browser
+# e.g. '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+chrome_instance_path = "/home/codespace/.cache/ms-playwright/chromium-1148/chrome-linux/chrome"
+# Connect to a browser instance via WebSocket
+#wss_url = ""
+# Connect to a browser instance via CDP
+cdp_url = "https://opulent-goggles-65wvr4576xr2q7g-9222.app.github.dev/"
+
+# Optional configuration, Proxy settings for the browser
+# [browser.proxy]
+# server = "http://proxy-server:port"
+# username = "proxy-username"
+# password = "proxy-password"
